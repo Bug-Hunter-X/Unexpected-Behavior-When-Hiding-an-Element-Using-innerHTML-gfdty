@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be hidden.
+  </div>
+  <script>
+    // Incorrectly using innerHTML to modify the style
+    document.getElementById("myDiv").innerHTML = "<div style='display:none;'>Hidden</div>";
+  </script>
+</body>
+</html>
