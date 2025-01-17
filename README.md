@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML related to using innerHTML to modify element styles, specifically hiding an element.  The bug causes the element to not be hidden as intended.  The solution shows how to correctly manipulate CSS styles to achieve the desired behavior without using innerHTML.
